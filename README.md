@@ -57,8 +57,8 @@
         Cells(4 + i, 2).Value = tickerVolumes(i)
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
 ## Summary
-### Pros and Cons of Refactoring Code
-  Refactoring code on a smaller subset of data that lend the structure of the larger data set gives us the opportunity to efficiently analyse abnormally large data sets that would be out of reach with less efficient code.  The big thing to be careful of is, to not loose functionality, and be certain that the data you are modeling on is close enough to the bigger data set to comfortable that the code will perform without error.
+### Advantages and Disadvantages of Refactoring
+  Refactoring code on a smaller subset of data that parallels the structure of the larger data set gives us the opportunity to efficiently analyse abnormally large data sets, that would be out of reach with less efficient code.  If taken too far you can easily loose functionality. It is also very important be certain that the data you are modeling on is close enough to the bigger data set to comfortable that the code will perform without error.
 ###The Refactored Stock Analysis
 
   
