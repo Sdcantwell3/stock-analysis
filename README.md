@@ -3,7 +3,7 @@
 ### Purpose
   The purpose of this project is to look at functioning VBA code and attempt to refactor it into a more efficient form.  The code is built to analyse stock data.  In the model we looked at 12 different Green stocks annual performance for 2017 and 2108.
 ## Results
-  I built the refactored code on the structure of the original analysis keeping the code for the input box and headers. I also used the original code/workbook for the ticker array. Below are the step by step changes I took to refactor the orginal code.
+  I built the refactored code on the structure of the original analysis keeping the code for the input box and headers. I also used the original code for the ticker array. Below are the step by step changes I took to refactor the orginal code.
        
        '1a) Create a ticker Index
         tickerIndex = 0
