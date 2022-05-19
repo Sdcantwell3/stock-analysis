@@ -3,6 +3,7 @@
 ### Purpose
   The purpose of this project is to look at functioning VBA code and attempt to refactor it into a more efficient form.  The code is built to analyse stock data.  In the model we looked at 12 different Green stocks annual performance for 2017 and 2108.
 ## Results
+### Analysis
   I built the refactored code on the structure of the original analysis keeping the code for the input box and headers. I also used the original code for the ticker array. Below are the step by step changes I took to refactor the orginal code.
        
        '1a) Create a ticker Index
@@ -55,8 +56,10 @@
         Cells(4 + i, 1).Value = tickers(i)
         Cells(4 + i, 2).Value = tickerVolumes(i)
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
-### Analysis
 ## Summary
 ### Pros and Cons of Refactoring Code
+  Refactoring code on a smaller subset of data that lend the structure of the larger data set gives us the opportunity to efficiently analyse abnormally large data sets that would be out of reach with less efficient code.  The big thing to be careful of is, to not loose functionality, and be certain that the data you are modeling on is close enough to the bigger data set to comfortable that the code will perform without error.
+###The Refactored Stock Analysis
 
+  
 
