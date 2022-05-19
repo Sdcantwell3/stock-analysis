@@ -59,7 +59,7 @@
 ## Summary
 ### Advantages and Disadvantages of Refactoring
   Refactoring code on a smaller subset of data that parallels the structure of the larger data set gives us the opportunity to efficiently analyse abnormally large data sets, that would be out of reach with less efficient code.  If taken too far you can easily loose functionality. It is also very important be certain that the data you are modeling on is close enough to the bigger data set to comfortable that the code will perform without error.
-###The Refactored Stock Analysis
+### The Refactored Stock Analysis
   The adjustments we made to the code definitely sped up the run time for the analysis. The run time was approximately 5% faster for the refactored code. Below are to screen grabs showing the run times for each year using the refactored code.
   
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/104606589/169217534-c222994f-7852-4586-86c3-124ea5a0dbcf.png)
